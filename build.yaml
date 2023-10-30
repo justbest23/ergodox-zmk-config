@@ -4,5 +4,5 @@
 # you are not using a dongle, you will need to modify both "board" and "shield"
 # below. Please see "readme.md" in the parent directory for instructions.
 include:
-  - board: raytac_mdbt50q_rx_green
+  - board: raytac_mdbt50q_rx
     shield: slicemk_ergodox_dongle
