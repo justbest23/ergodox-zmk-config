@@ -22,7 +22,7 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp GRAV        &kp NUMBER_1  &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC   &kp BSLH     &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &to LAYER_LAYERS
+				&kp GRAV        &kp NUMBER_1  &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC   &kp BSLH     &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &lorng_layers
 				&caps_word      &kp SQT       &kp COMMA    &kp DOT      &kp P        &kp Y        &kp C_PP   &kp M_MUTE   &kp F        &kp G        &kp C        &kp R        &kp L        &kp SLASH
 				&kp ESC         &kp A         &kp O        &kp E        &kp U        &kp I                                &kp D        &kp H        &kp T        &kp N        &kp S        &kp MINUS
 				&mo LAYER_SYMB  &kp SEMICOLON &kp Q        &kp J        &kp K        &kp X        &kp M_VOLD &kp M_VOLU   &kp B        &kp M        &kp W        &kp V        &kp Z        &mo LAYER_SYMB
@@ -35,7 +35,7 @@
 		layer_1 {
 			bindings = <
 				&bootloader
-				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none  &none  &none  &none  &none   &none   &none   &none   &bootloader
+				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none  &none  &none  &none  &none   &none   &none   &bootloader   &lorng_layers
 				&out OUT_USB &kp F1       &kp F2       &kp F3       &kp F4       &none  &trans &trans &none  &kp F13 &kp F14 &kp F15 &kp F16 &rgb_ug RGB_COLOR_HSB(0,100,50)
 				&out OUT_BLE &kp F5       &kp F6       &kp F7       &kp F8       &none                &none  &kp F17 &kp F18 &kp F19 &kp F20 &rgb_ug RGB_COLOR_HSB(120,100,50)
 				&trans       &kp F9       &kp F10      &kp F11      &kp F12      &none  &trans &trans &none  &kp F21 &kp F22 &kp F23 &kp F24 &rgb_ug RGB_COLOR_HSB(240,100,50)
@@ -48,7 +48,7 @@
 		layer_2 {
 			bindings = <
 				&bootloader
-				&none  &none  &none  &none    &none     &none  &none  &none  &none  &none          &none           &none     &none  &none
+				&none  &none  &none  &none    &none     &none  &none  &none  &none  &none          &none           &none     &none  &lorng_layers
 				&none  &none  &none  &none    &none     &none  &trans &trans &none  &none          &kp UP          &none     &none  &none
 				&none  &none  &none  &kp PLUS &kp EQUAL &none                &none  &kp LEFT       &kp DOWN        &kp RIGHT &none  &none
 				&none  &none  &none  &kp LBKT &kp RBKT  &none  &trans &trans &none  &kp LEFT_BRACE &kp RIGHT_BRACE &none     &none  &to LAYER_MAIN
@@ -61,7 +61,7 @@
 		layer_3 {
 			bindings = <
 				&bootloader
-				&none          &kp F1    &kp F2       &kp F3    &kp F4   &kp F5 &kp F6  &kp F7 &kp F8 &kp F9    &kp F10   &kp F11   &kp F12   &none
+				&none          &kp F1    &kp F2       &kp F3    &kp F4   &kp F5 &kp F6  &kp F7 &kp F8 &kp F9    &kp F10   &kp F11   &kp F12   &lorng_layers
 				&kp TAB        &none     &none        &none     &none    &none  &trans  &trans &none  &kp KP_N7 &kp KP_N8 &kp KP_N9 &none     &none
 				&none          &kp SLASH &kp ASTERISK &kp MINUS &kp PLUS &none                 &none  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_N0 &kp BKSP
 				&trans         &none     &none        &none     &kp DOT  &none  &trans  &trans &none  &kp KP_N1 &kp KP_N2 &kp KP_N3 &none     &none
@@ -74,7 +74,7 @@
 		layer_4 {
 			bindings = <
 				&bootloader
-				&none      &none &none &none &none   &none &none &none &none &none &none &none &none &none
+				&none      &none &none &none &none   &none &none &none &none &none &none &none &none &lorng_layers
 				&kp TAB    &kp Q &kp W &kp E &kp R   &none &none &none &none &none &none &none &none &none
 				&none      &kp A &kp S &kp D &kp F   &none             &none &none &none &none &none &none
 				&kp LSHIFT &none &none &none &none   &none &none &none &none &none &none &none &none &none
@@ -87,7 +87,7 @@
 		layer_5 {
 			bindings = <
 				&bootloader
-				&none &loff_main &to LAYER_FN &to LAYER_SYMB &lred_nmpad &lpurp_gaming &to LAYER_LAYERS &none &none &none &none &none &none &none
+				&none &loff_main &to LAYER_FN &to LAYER_SYMB &lred_nmpad &lpurp_gaming &to LAYER_LAYERS &none &none &none &none &none &none &lorng_layers
 				&none &none          &none        &none          &none           &none            &none            &none &none &none &none &none &none &none
 				&none &none          &none        &none          &none           &none                                   &none &none &none &none &none &none
 				&none &none          &none        &none          &none           &none            &none            &none &none &none &none &none &none &none
@@ -99,7 +99,8 @@
 		};
 	};
 
-	ZMK_MACRO(lred_nmpad, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_NMPAD &macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>;)
-	ZMK_MACRO(loff_main, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_MAIN &macro_tap &rgb_ug RGB_COLOR_HSB(0,0,0)>;)
-	ZMK_MACRO(lpurp_gaming, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_GAMING &macro_tap &rgb_ug RGB_COLOR_HSB(268,100,41)>;)
+	ZMK_MACRO(lred_nmpad, wait-ms = <40>; tap-ms = <50>; bindings = <&to LAYER_NMPAD &macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>;)
+	ZMK_MACRO(loff_main, wait-ms = <40>; tap-ms = <50>; bindings = <&to LAYER_MAIN &macro_tap &rgb_ug RGB_COLOR_HSB(0,0,0)>;)
+	ZMK_MACRO(lpurp_gaming, wait-ms = <40>; tap-ms = <50>; bindings = <&to LAYER_GAMING &macro_tap &rgb_ug RGB_COLOR_HSB(268,100,41)>;)
+	ZMK_MACRO(lorng_layers, wait-ms = <40>; tap-ms = <50>; bindings = <&to LAYER_LAYERS &macro_tap &rgb_ug RGB_COLOR_HSB(36,100,63)>;)
 };
