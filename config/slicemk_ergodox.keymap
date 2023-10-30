@@ -87,7 +87,7 @@
 		layer_5 {
 			bindings = <
 				&bootloader
-				&none &to LAYER_MAIN &to LAYER_FN &to LAYER_SYMB &to LAYER_NMPAD &to LAYER_GAMING &to LAYER_LAYERS &none &none &none &none &none &none &none
+				&none &loff_main &to LAYER_FN &to LAYER_SYMB &lred_nmpad &lpurp_gaming &to LAYER_LAYERS &none &none &none &none &none &none &none
 				&none &none          &none        &none          &none           &none            &none            &none &none &none &none &none &none &none
 				&none &none          &none        &none          &none           &none                                   &none &none &none &none &none &none
 				&none &none          &none        &none          &none           &none            &none            &none &none &none &none &none &none &none
@@ -101,5 +101,5 @@
 
 	ZMK_MACRO(lred_nmpad, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_NMPAD &macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>;)
 	ZMK_MACRO(loff_main, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_MAIN &macro_tap &rgb_ug RGB_COLOR_HSB(0,0,0)>;)
-
+	ZMK_MACRO(lpurp_gaming, wait-ms = <100>; tap-ms = <50>; bindings = <&to LAYER_GAMING &macro_tap &rgb_ug RGB_COLOR_HSB(268,100,41)>;)
 };
