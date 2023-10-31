@@ -25,8 +25,8 @@
 				&kp GRAV        &kp NUMBER_1  &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp PRSC   &kp BSLH     &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &lorng_layers
 				&caps_word      &kp SQT       &kp COMMA    &kp DOT      &kp P        &kp Y        &kp C_PP   &kp M_MUTE   &kp F        &kp G        &kp C        &kp R        &kp L        &kp SLASH
 				&kp ESC         &kp A         &kp O        &kp E        &kp U        &kp I                                &kp D        &kp H        &kp T        &kp N        &kp S        &kp MINUS
-				&mo LAYER_SYMB  &kp SEMICOLON &kp Q        &kp J        &kp K        &kp X        &kp M_VOLD &kp M_VOLU   &kp B        &kp M        &kp W        &kp V        &kp Z        &mo LAYER_SYMB
-				&lred_nmpad  &kp LC(C)    &kp LC(V)    &kp LALT     &kp LSHIFT                                                     &kp RSHIFT   &kp LCTRL    &kp RALT     &none        &to LAYER_NMPAD
+				&mo LAYER_SYMB  &kp SEMICOLON &kp Q        &kp J        &kp K        &kp X        &kp M_VOLD &kp M_VOLU   &kp B        &kp M        &kp W        &kp V        &kp Z        &kp LCTRL
+				&lred_nmpad  &kp LC(C)    &kp LC(V)    &kp LALT     &kp LSHIFT                                                     &kp RSHIFT   &kp LCTRL    &kp RALT     &none        &kp LCTRL 
 				                                                                     &kp DEL      &kp HOME   &kp END      &kp INS
 				                                                        &kp BKSP     &kp TAB      &kp PGUP   &kp PGDN     &kp RET      &kp SPC
 				                                                                                  &kp LGUI   &mo LAYER_FN
