@@ -74,13 +74,13 @@
 		layer_4 {
 			bindings = <
 				&bootloader
-				&none      &none &none &none &none   &none &none &none &none &none &none &none &none &lorng_layers
-				&kp TAB    &kp Q &kp W &kp E &kp R   &none &none &none &none &none &none &none &none &none
-				&none      &kp A &kp S &kp D &kp F   &none             &none &none &none &none &none &none
-				&kp LSHIFT &none &none &none &none   &none &none &none &none &none &none &none &none &none
+				&none      &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4   &kp NUMBER_5 &none &none &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &lorng_layers
+				&kp TAB    &kp Q &kp W &kp E &kp R   &kp T &trans &trans &kp Y &kp U &kp I &kp O &kp P &kp BKSP
+				&none      &kp A &kp S &kp D &kp F   &kp G             &kp H &kp J &kp K &kp L &kp ; &none
+				&kp LSHIFT &kp Z &kp X &kp C &kp V   &kp B &trans &trans &kp B &kp N &kp M &kp , &kp . &none
 				&kp LCTRL  &none &none &none &kp SPC                         &none &none &none &none &to LAYER_MAIN
 				                                     &none &none &none &none
-				                             &kp SPC &none &none &none &none &none
+				                             &kp SPC &none &none &none &trans &trans
 				                                           &none &none
 			>;
 		};
