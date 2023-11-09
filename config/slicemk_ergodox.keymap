@@ -30,11 +30,11 @@
         layer_0 {
             bindings = <
 &bootloader
-&kp GRAVE       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp PRINTSCREEN      &kp BSLH         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &lorng_layers
-&caps_word      &kp SQT        &kp COMMA     &kp DOT       &kp P          &kp Y         &kp C_PP             &kp K_MUTE       &kp F         &kp G         &c_copy LC(C) C  &kp R         &kp L         &kp SLASH
-&kp ESC         &kp A          &kp O         &kp E         &kp U          &kp I                                               &kp D         &kp H         &kp T            &kp N         &kp S         &kp MINUS
-&mo LAYER_SYMB  &kp SEMICOLON  &kp Q         &kp J         &kp K          &kp X         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp B         &kp M         &kp W            &kp V         &kp Z         &kp LCTRL
-&lred_nmpad     &kp LC(C)      &kp LC(V)     &kp LALT      &kp LSHIFT                                                                       &kp RSHIFT    &kp LCTRL        &kp RALT      &none         &kp LCTRL
+&kp GRAVE       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp PRINTSCREEN      &kp BSLH         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &lorng_layers
+&caps_word      &kp SQT        &kp COMMA     &kp DOT       &kp P          &kp Y         &kp C_PP             &kp K_MUTE       &kp F         &kp G         &kp C         &kp R         &kp L         &kp SLASH
+&kp ESC         &kp A          &kp O         &kp E         &kp U          &kp I                                               &kp D         &kp H         &kp T         &kp N         &kp S         &kp MINUS
+&mo LAYER_SYMB  &kp SEMICOLON  &kp Q         &kp J         &kp K          &kp X         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp B         &kp M         &kp W         &kp V         &kp Z         &kp LCTRL
+&lred_nmpad     &kp LC(C)      &kp LC(V)     &kp LALT      &kp LSHIFT                                                                       &kp RSHIFT    &kp LCTRL     &kp RALT      &none         &kp LCTRL
                                                                           &kp DEL       &kp HOME             &kp END          &kp INS
                                                            &kp BACKSPACE  &kp TAB       &kp PG_DN            &kp PG_UP        &kp RET       &kp SPACE
                                                                                         &kp LGUI             &mo LAYER_FN
