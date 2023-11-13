@@ -11,25 +11,12 @@
 #define LAYER_GAMING 4
 #define LAYER_LAYERS 5
 
-/ {
-    behaviors {
-        c_copy: c_copy {
-            compatible = "zmk,behavior-hold-tap";
-            label = "C_COPY";
-            bindings = <&mt>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <70>;
-            hold-trigger-key-positions = <25>;
-        };
-    };
-
-
 &mt {
-	tapping-term-ms = <50>;
+    tapping-term-ms = <50>;
 };
 
-    keymap {
+
+/   keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
