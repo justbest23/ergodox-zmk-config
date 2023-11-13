@@ -12,7 +12,7 @@
 #define LAYER_LAYERS 5
 
 &mt {
-    tapping-term-ms = <100>;
+    tapping-term-ms = <50>;
 };
 
 
