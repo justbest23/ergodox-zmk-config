@@ -15,21 +15,20 @@
     tapping-term-ms = <300>;
 };
 
-
-/{
-keymap {
+/ {
+    keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             bindings = <
 &bootloader
-&kp GRAVE       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp PRINTSCREEN      &kp BSLH         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &lorng_layers
-&caps_word      &kp SQT        &kp COMMA     &kp DOT       &kp P          &kp Y         &kp C_PP             &kp K_MUTE       &kp F         &kp G         &kp C   &kp R         &kp L         &kp SLASH
-&kp ESC         &kp A          &kp O         &kp E         &kp U          &kp I                                               &kp D         &kp H         &kp T         &kp N         &kp S         &kp MINUS
-&mo LAYER_SYMB  &kp SEMICOLON  &kp Q         &kp J         &kp K          &kp X         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp B         &kp M         &kp W         &kp V         &kp Z         &kp LCTRL
-&lred_nmpad     &kp LC(C)      &kp LC(V)     &kp LALT      &kp LSHIFT                                                                       &kp RSHIFT    &kp LCTRL     &kp RALT      &none         &kp LCTRL
-                                                                          &kp DEL       &kp HOME             &kp END          &kp INS
-                                                           &kp BACKSPACE  &kp TAB       &kp PG_DN            &kp PG_UP        &kp RET       &kp SPACE
+&kp GRAVE       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp PRINTSCREEN      &kp BSLH          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &lorng_layers
+&caps_word      &kp SQT        &kp COMMA     &kp DOT       &kp P          &kp Y         &kp C_PP             &kp C_MUTE        &kp F         &kp G         &kp C         &kp R         &kp L         &kp SLASH
+&kp ESC         &kp A          &kp O         &kp E         &kp U          &kp I                                                &kp D         &kp H         &kp T         &kp N         &kp S         &kp MINUS
+&mo LAYER_SYMB  &kp SEMICOLON  &kp Q         &kp J         &kp K          &kp X         &kp C_VOLUME_DOWN    &kp C_VOLUME_UP   &kp B         &kp M         &kp W         &kp V         &kp Z         &kp EQUAL
+&lred_nmpad     &kp LC(C)      &kp LC(V)     &kp LALT      &kp LSHIFT                                                                        &kp RSHIFT    &kp LCTRL     &kp RALT      &none         &kp LCTRL
+                                                                          &kp DEL       &kp HOME             &kp PG_DN         &kp PG_UP
+                                                           &kp BACKSPACE  &kp TAB       &kp LCTRL            &kp K_CALCULATOR  &kp RET       &kp SPACE
                                                                                         &kp LGUI             &mo LAYER_FN
             >;
         };
@@ -83,7 +82,7 @@ keymap {
 &kp TAB      &kp Q         &kp W         &kp E         &kp R         &kp T         &trans    &trans  &kp Y         &kp U         &kp I         &kp O         &kp P          &kp BKSP
 &none        &kp A         &kp S         &kp D         &kp F         &kp G                           &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &none
 &kp LSHIFT   &kp Z         &kp X         &kp C         &kp V         &kp B         &trans    &trans  &kp B         &kp N         &kp M         &kp COMMA     &kp DOT        &none
-&kp LCTRL    &none         &none         &kp LALT         &kp SPACE                                                   &none         &none         &none         &none          &to LAYER_MAIN
+&kp LCTRL    &none         &none         &kp LALT      &kp SPACE                                                   &none         &none         &none         &none          &to LAYER_MAIN
                                                                      &kp GRAVE     &none     &none   &none
                                                        &kp SPACE     &none         &none     &none   &trans        &trans
                                                                                    &none     &none
