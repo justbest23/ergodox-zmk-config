@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: xudongzheng
-      revision: v20230402-rgb
+      revision: v20240802-rgb
       import: app/west.yml
   self:
     path: config
