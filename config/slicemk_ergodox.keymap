@@ -93,7 +93,7 @@
         layer_5 {
             bindings = <
 &bootloader
-&none        &loff_main  &to LAYER_FN  &to LAYER_SYMB  &lred_nmpad  &lpurp_gaming  &to LAYER_LAYERS    &to lcal_steno  &none  &none  &none  &none  &none  &lorng_layers
+&none        &loff_main  &to LAYER_FN  &to LAYER_SYMB  &lred_nmpad  &lpurp_gaming  &to LAYER_LAYERS    &lcal_steno  &none  &none  &none  &none  &none  &lorng_layers
 &none        &none       &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
 &none        &none       &none         &none           &none        &none                                     &none  &none  &none  &none  &none  &none
 &none        &none       &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
