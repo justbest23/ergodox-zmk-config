@@ -10,7 +10,7 @@
 #define LAYER_NMPAD 3
 #define LAYER_GAMING 4
 #define LAYER_LAYERS 5
-#defire LAYER_STENO 6
+#define LAYER_STENO 6
 
 &mt {
     tapping-term-ms = <300>;
