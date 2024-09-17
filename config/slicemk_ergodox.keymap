@@ -11,6 +11,7 @@
 #define LAYER_GAMING 4
 #define LAYER_LAYERS 5
 #define LAYER_STENO 6
+#define LAYER_PALAN 7
 
 &mt {
     tapping-term-ms = <300>;
@@ -93,7 +94,7 @@
         layer_5 {
             bindings = <
 &bootloader
-&none        &loff_main  &to LAYER_FN  &to LAYER_SYMB  &lred_nmpad  &lpurp_gaming  &to LAYER_LAYERS    &lcal_steno  &none  &none  &none  &none  &none  &lorng_layers
+&none        &loff_main  &to LAYER_FN  &to LAYER_SYMB  &lred_nmpad  &lpurp_gaming  &to LAYER_LAYERS    &lcal_steno  &lch_palan  &none  &none  &none  &none  &lorng_layers
 &none        &none       &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
 &none        &none       &none         &none           &none        &none                                     &none  &none  &none  &none  &none  &none
 &none        &none       &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
@@ -112,6 +113,22 @@
 &kp CAPSLOCK &kp Q         &kp W         &kp E         &kp R         &kp T         &trans    &trans  &kp Y         &kp U         &kp I         &kp O         &kp P          &kp LEFT_BRACKET
 &kp ESC      &kp A         &kp S         &kp D         &kp F         &kp G                           &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp APOSTROPHE
 &kp LSHIFT   &kp Z         &kp X         &kp C         &kp C         &kp V         &trans    &trans  &kp N         &kp M         &kp M         &kp COMMA     &kp DOT        &none
+&kp LCTRL    &none         &none         &kp LALT      &kp V                                                       &kp N         &none         &none         &none          &to LAYER_MAIN
+                                                                          &kp DEL       &kp LC(V)            &kp PG_DN            &kp PG_UP
+                                                           &kp BACKSPACE  &kp TAB       &kp LC(C)            &kp C_AL_CALCULATOR  &kp RET       &kp SPACE
+                                                                                        &kp LGUI             &mo LAYER_FN
+
+            >;
+        };
+
+
+        layer_7 {
+            bindings = <
+&bootloader
+&kp ESC      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none     &none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp NUMBER_0   &lorng_layers
+&kp CAPSLOCK &kp Q         &kp W         &kp E         &kp R         &kp T         &trans    &trans  &kp Y         &kp U         &kp I         &kp O         &kp P          &kp LEFT_BRACKET
+&kp ESC      &kp A         &kp S         &kp D         &kp F         &kp G                           &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp APOSTROPHE
+&kp LSHIFT   &kp Z         &kp X         &kp C         &kp V         &kp B         &trans    &trans  &kp B         &kp N         &kp M         &kp COMMA     &kp DOT        &kp DOT
 &kp LCTRL    &none         &none         &kp LALT      &kp V                                                       &kp N         &none         &none         &none          &to LAYER_MAIN
                                                                           &kp DEL       &kp LC(V)            &kp PG_DN            &kp PG_UP
                                                            &kp BACKSPACE  &kp TAB       &kp LC(C)            &kp C_AL_CALCULATOR  &kp RET       &kp SPACE
@@ -159,6 +176,14 @@ ZMK_MACRO(
     wait-ms = <40>;
     tap-ms = <50>;
     bindings = <&to LAYER_STENO &macro_tap &rgb_ug RGB_COLOR_HSB(255,255,63)>;
+
+    )
+	ZMK_MACRO(
+
+    lch_palan,
+    wait-ms = <40>;
+    tap-ms = <50>;
+    bindings = <&to LAYER_STENO &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
 
     )
 };
