@@ -183,7 +183,7 @@ ZMK_MACRO(
     lch_palan,
     wait-ms = <40>;
     tap-ms = <50>;
-    bindings = <&to LAYER_STENO &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
+    bindings = <&to LAYER_PALAN &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
 
     )
 };
