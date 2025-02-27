@@ -21,7 +21,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+## DVORAK
+	layer_0 {
             bindings = <
 &bootloader
 &kp GRAVE       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp PRINTSCREEN      &kp BSLH             &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &lorng_layers
@@ -35,6 +36,7 @@
             >;
         };
 
+## F Keys
         layer_1 {
             bindings = <
 &bootloader
@@ -49,6 +51,7 @@
             >;
         };
 
+## Arrow Keys
         layer_2 {
             bindings = <
 &bootloader
@@ -63,6 +66,8 @@
             >;
         };
 
+
+## Numpad
         layer_3 {
             bindings = <
 &bootloader
@@ -77,6 +82,7 @@
             >;
         };
 
+## Gaming
         layer_4 {
             bindings = <
 &bootloader
@@ -91,6 +97,7 @@
             >;
         };
 
+## Layers
         layer_5 {
             bindings = <
 &bootloader
@@ -106,6 +113,7 @@
         };
 
 
+## Macros
         layer_6 {
             bindings = <
 &bootloader
@@ -121,6 +129,7 @@
         };
 
 
+## QWERTY
         layer_7 {
             bindings = <
 &bootloader
@@ -133,17 +142,7 @@
                                                            &kp BACKSPACE  &kp TAB       &kp LC(C)            &kp C_AL_CALCULATOR  &kp RET       &kp SPACE
                                                                                         &kp LGUI             &mo LAYER_FN
 
-        layer_8 {
-            bindings = <
-&bootloader
-&kp ESC      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none     &none   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp NUMBER_0   &lorng_layers
-&none        &open_details_exabeam    &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
-&none        &none       &none         &none           &none        &none                                     &none  &none  &none  &none  &none  &none
-&none        &none       &none         &none           &none        &none          &none               &none  &none  &none  &none  &none  &none  &none
-&none        &none       &none         &none           &none                                                         &none  &none  &none  &none  &none
-                                                                    &none          &none               &none  &none
-                                                       &none        &none          &none               &none  &none  &none
-                                                                                   &none               &none
+     
             >;
         };
     };
