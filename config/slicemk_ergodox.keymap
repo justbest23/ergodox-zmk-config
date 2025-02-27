@@ -21,7 +21,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-## DVORAK
+
 	layer_0 {
             bindings = <
 &bootloader
@@ -36,7 +36,7 @@
             >;
         };
 
-## F Keys
+
         layer_1 {
             bindings = <
 &bootloader
@@ -51,7 +51,7 @@
             >;
         };
 
-## Arrow Keys
+
         layer_2 {
             bindings = <
 &bootloader
@@ -67,7 +67,7 @@
         };
 
 
-## Numpad
+
         layer_3 {
             bindings = <
 &bootloader
@@ -82,7 +82,7 @@
             >;
         };
 
-## Gaming
+
         layer_4 {
             bindings = <
 &bootloader
@@ -97,7 +97,7 @@
             >;
         };
 
-## Layers
+
         layer_5 {
             bindings = <
 &bootloader
@@ -113,7 +113,7 @@
         };
 
 
-## Macros
+
         layer_6 {
             bindings = <
 &bootloader
@@ -129,7 +129,7 @@
         };
 
 
-## QWERTY
+
         layer_7 {
             bindings = <
 &bootloader
