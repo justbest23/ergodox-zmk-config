@@ -195,26 +195,14 @@ ZMK_MACRO(
     bindings = <&to LAYER_PALAN &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
 
     )
+ZMK_MACRO(
 
-/ {
-    macros {
-        open_details_exabeam: open_details_exabeam {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp TAB &kp TAB>
-                , <&macro_press &kp LCTRL>
-		, <&macro_tap &kp ENTER>
-		, <&macro_release &kp LCTRL>
-                ;
+    exabeam_details,
+    bindings
+    = <&macro_tap &kp TAB &kp TAB>
+    , <&macro_press &kp LCTRL>
+    , <&macro_tap &kp ENTER>
+    , <&macro_release &kp LCTRL>;
         };
     };
-};
-
-bindings
-    = <&macro_tap_time 10>
-    , <&kp S &kp H &kp O &kp R &kp T>
-    , <&macro_tap_time 500>
-    , <&kp L &kp O &kp N &kp G>
-    ;
 };
