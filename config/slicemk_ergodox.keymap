@@ -17,6 +17,18 @@
     tapping-term-ms = <300>;
 };
 
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <16 23>;
+            bindings = <&kp L>;
+        };
+    };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
