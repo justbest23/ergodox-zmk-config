@@ -203,6 +203,5 @@ ZMK_MACRO(
     , <&macro_press &kp LCTRL>
     , <&macro_tap &kp ENTER>
     , <&macro_release &kp LCTRL>;
-        };
     };
 };
