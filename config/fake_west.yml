@@ -1,1 +1,11 @@
-
+manifest:
+  remotes:
+    - name: xudongzheng
+      url-base: https://github.com/xudongzheng
+  projects:
+    - name: zmk
+      remote: xudongzheng
+      revision: v20240802-rgb
+      import: app/west.yml
+  self:
+    path: config
