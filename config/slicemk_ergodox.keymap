@@ -162,7 +162,7 @@
         };
     };
 
-/ {
+{
    macros {
 
 	lred_nmpad: lred_nmpad {
