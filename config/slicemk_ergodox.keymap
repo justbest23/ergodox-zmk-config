@@ -221,12 +221,14 @@ ZMK_MACRO(
     )
 
 ZMK_MACRO(
+
     no_action_required,
-    bindings
-    = <&macro_press &kp LSHIFT>
-    , <&macro_tap &kp N>
-    , <&macro_release &kp LSHIFT>
-    , <&macro_tap &kp O &kp SPACE &kp f>;
+    bindings = <&macro_press &kp LSHIFT>,
+    <&macro_tap &kp N>,
+    <&macro_release &kp LSHIFT>,
+    <&macro_tap &kp O &kp SPACE &kp f>
+    )
+}
     )
 }
 
