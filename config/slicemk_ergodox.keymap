@@ -205,4 +205,24 @@ ZMK_MACRO(
     , <&macro_tap &kp ENTER>
     , <&macro_release &kp LCTRL>;
     )
+
+ZMK_MACRO(
+
+    no_action_required,
+    bindings
+    = <&macro_press &kp LSHIFT>
+    , <&macro_tap &kp N>
+    , <&macro_release &kp LSHIFT>;
+    , <&macro_tap &kp O &kp SPACE &kp f>
+    )
+
+
+ {
+    combos {
+        compatible = "zmk,combos";
+        combo_no_action {
+            timeout-ms = <50>;
+            key-positions = <38 31>;
+            bindings = <&no_action_required>;
+        };
 };
