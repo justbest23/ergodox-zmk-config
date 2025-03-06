@@ -226,7 +226,7 @@ ZMK_MACRO(
     = <&macro_press &kp LSHIFT>
     , <&macro_tap &kp N>
     , <&macro_release &kp LSHIFT>
-    , <&macro_tap &kp O &kp SPACE &kp f>
+    , <&macro_tap &kp O &kp SPACE &kp f>;
     )
 }
 
