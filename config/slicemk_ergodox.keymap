@@ -214,9 +214,12 @@ ZMK_MACRO(
 
 ZMK_MACRO(
 
-    no_action_required,
+    lch_palan,
     wait-ms = <40>;
     tap-ms = <50>;
-    bindings = <&macro_tap &kp N &kp O &kp SPACE &kp f>; 
+    bindings = <&to LAYER_PALAN &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
+
     )
+
+
 }
