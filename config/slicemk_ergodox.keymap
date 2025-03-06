@@ -212,19 +212,12 @@ ZMK_MACRO(
     )
 ZMK_MACRO(
 
-    open_details_exabeam,
-    bindings
-    = <&macro_tap &kp TAB &kp TAB>
-    , <&macro_press &kp LCTRL>
-    , <&macro_tap &kp ENTER>
-    , <&macro_release &kp LCTRL>;
-    )
-
-ZMK_MACRO(
-
     no_action_required,
+    wait-ms = <40>;
+    tap-ms = <50>;
     bindings = <&macro_tap &kp N>,
-    <&macro_tap &kp O &kp SPACE &kp f>
+    <&macro_tap &kp O &kp SPACE &kp f>;
+
     )
 }
 
