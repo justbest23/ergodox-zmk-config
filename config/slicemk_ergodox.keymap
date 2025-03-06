@@ -19,16 +19,16 @@
 
 
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_no_action {
-            timeout-ms = <50>;
-            key-positions = <38 31>;
-            bindings = <&no_action_required>;
-        };
-    };
-};
+// / {
+//     combos {
+//         compatible = "zmk,combos";
+//         combo_no_action {
+//             timeout-ms = <50>;
+//             key-positions = <38 31>;
+//             bindings = <&no_action_required>;
+//         };
+//     };
+// };
         
 
 
@@ -217,6 +217,6 @@ ZMK_MACRO(
     wait-ms = <40>;
     tap-ms = <50>;
     bindings = <&macro_tap &kp N &kp O &kp SPACE &kp f>;
+
     )
 }
-
