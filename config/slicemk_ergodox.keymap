@@ -213,10 +213,10 @@ ZMK_MACRO(
     )
 
 ZMK_MACRO(
+
     no_action_required,
     wait-ms = <40>;
     tap-ms = <50>;
-    bindings = <&macro_tap &kp N &kp O &kp SPACE &kp f>;
-
+    bindings = <&macro_tap &kp N &kp O &kp SPACE &kp f>; 
     )
 }
