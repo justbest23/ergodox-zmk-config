@@ -162,18 +162,14 @@
         };
     };
 
-{
-   macros {
+ZMK_MACRO(
 
-	lred_nmpad: lred_nmpad {
-	    compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-	    tap-ms = <50>;
-	    bindings = <&to LAYER_NMPAD &macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>;
-        };
-    };
-};
+    lred_nmpad,
+    wait-ms = <40>;
+    tap-ms = <50>;
+    bindings = <&to LAYER_NMPAD &macro_tap &rgb_ug RGB_COLOR_HSB(0,100,100)>;
+
+    )
 	
 ZMK_MACRO(
 
