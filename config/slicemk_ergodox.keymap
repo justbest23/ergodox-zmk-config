@@ -19,16 +19,16 @@
 
 
 
-// / {
-//     combos {
-//         compatible = "zmk,combos";
-//         combo_no_action {
-//             timeout-ms = <50>;
-//             key-positions = <38 31>;
-//             bindings = <&no_action_required>;
-//         };
-//     };
-// };
+/ {
+     combos {
+         compatible = "zmk,combos";
+         combo_no_action {
+             timeout-ms = <50>;
+             key-positions = <38 31>;
+             bindings = <&no_action_required>;
+         };
+     };
+ };
         
 
 
@@ -211,4 +211,13 @@ ZMK_MACRO(
     bindings = <&to LAYER_PALAN &macro_tap &rgb_ug RGB_COLOR_HSB(0,255,0)>;
 
     )
+ZMK_MACRO(
+    no_action_required,
+    wait-ms = <40>;
+    tap-ms = <50>;
+    bindings = <&macro_tap &kp N &kp O &kp SPACE &kp f>;
+
+    )
+
+
 }
