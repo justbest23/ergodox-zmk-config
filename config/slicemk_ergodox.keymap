@@ -217,7 +217,7 @@ ZMK_MACRO(
     tap-ms = <50>;
     bindings = 
 	<&macro_press &kp LSHIFT>,
-        <&macro_tap &kp N>,
+        <&kp N>,
         <&macro_release &kp LSHIFT>,
         <&kp O &kp SPACE &kp F &kp U &kp R &kp T &kp H &kp E &kp R &kp SPACE &kp A &kp C &kp T &kp I &kp O &kp N &kp SPACE &kp R &kp E &kp Q &kp U &kp I &kp R &kp E &kp D &kp DOT>;
     )
