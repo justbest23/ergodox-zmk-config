@@ -215,8 +215,11 @@ ZMK_MACRO(
     no_action_required,
     wait-ms = <40>;
     tap-ms = <50>;
-    bindings = <&macro_tap &kp N &kp O &kp SPACE &kp F>;
-
+    bindings = 
+        <&macro_hold &LSHIFT>
+        <&macro_tap &kp N>;
+        <&macro_release &LSHIFT>
+        <&kp O &kp SPACE &kp F &kp U &kp R &kp T &kp H &kp E &kp R &kp SPACE &kp A &kp C &kp T &kp I &kp O &kp N &kp SPACE &kp R &kp E &kp Q &kp U &kp I &kp R &kp E &kp D &kp DOT>
     )
 
 
