@@ -23,7 +23,7 @@
      combos {
          compatible = "zmk,combos";
          combo_no_action {
-             timeout-ms = <50>;
+             timeout-ms = <20>;
              key-positions = <38 31>;
              bindings = <&no_action_required>;
          };
@@ -213,8 +213,8 @@ ZMK_MACRO(
     )
 ZMK_MACRO(
     no_action_required,
-    wait-ms = <40>;
-    tap-ms = <50>;
+    wait-ms = <10>;
+    tap-ms = <20>;
     bindings = <&macro_press &kp LSHIFT>,
 	<&macro_tap &kp N>,
 	<&macro_release &kp LSHIFT>,
