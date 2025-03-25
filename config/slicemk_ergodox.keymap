@@ -31,7 +31,7 @@
             timeout-ms = <20>;
             key-positions = <23 34>;
             bindings = <&FICA_COMPLIANCE>;
-         }
+         };
      };
  };
         
