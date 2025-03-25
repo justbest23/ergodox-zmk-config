@@ -222,5 +222,23 @@ ZMK_MACRO(
 	<&macro_tap &kp TAB &kp TAB &kp RET>;
     )
 
+ZMK_MACRO(
+    FICA_COMPLIANCE,
+    wait-ms = <10>;
+    tap-ms = <20>;
+    bindings = <&macro_press &kp LSHIFT>,
+    <&macro_tap &kp A>,
+    <&macro_release &kp LSHIFT>,
+    <&macro_tap &kp C &kp C &kp E &kp S &kp S &kp SPACE &kp T &kp O &kp SPACE>,
+    <&macro_press &kp LSHIFT>,
+    <&macro_tap &kp P &kp O &kp P &kp I>,
+    <&macro_release &kp LSHIFT>,
+    <&macro_tap &kp SPACE &kp D &kp A &kp T &kp A &kp SPACE &kp I &kp S &kp SPACE &kp E &kp X &kp P &kp E &kp C &kp T &kp E &kp D &kp SPACE &kp B &kp E &kp H &kp A &kp V &kp I &kp O &kp U &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE>,
+    <&macro_press &kp LSHIFT>,
+    <&macro_tap &kp F &kp I &kp C &kp A>, 
+    <&macro_release &kp LSHIFT>,
+    <&macro_tap &kp SPACE &kp D &kp E &kp P &kp A &kp R &kp T &kp M &kp E &kp N &kp T &kp DOT &kp SPACE>,
+    <&no_action_required>;
+    )
 
 };
