@@ -27,6 +27,11 @@
              key-positions = <38 31>;
              bindings = <&no_action_required>;
          };
+         combo_FICA {
+            timeout-ms = <20>;
+            key-positions = <23 34>;
+            bindings = <&FICA_COMPLIANCE>;
+         }
      };
  };
         
