@@ -30,7 +30,7 @@
          combo_FICA {
             timeout-ms = <20>;
             key-positions = <23 34>;
-            bindings = <&FICA_COMPLIANCE>;
+            bindings = <&MARKETING_DEPT>;
          };
      };
  };
@@ -228,21 +228,17 @@ ZMK_MACRO(
     )
 
 ZMK_MACRO(
-    FICA_COMPLIANCE,
+    MARKETING_DEPT,
     wait-ms = <10>;
     tap-ms = <20>;
     bindings = <&macro_press &kp LSHIFT>,
-    <&macro_tap &kp A>,
+    <&macro_tap &kp N>,
     <&macro_release &kp LSHIFT>,
-    <&macro_tap &kp C &kp C &kp E &kp S &kp S &kp SPACE &kp T &kp O &kp SPACE>,
+    <&macro_tap &kp O &kp R &kp M &kp A &kp L &kp SPACE &kp A &kp C &kp T &kp I &kp V &kp I &kp T &kp Y &kp SPACE &kp F &kp O &kp R &kp SPACE>,
     <&macro_press &kp LSHIFT>,
-    <&macro_tap &kp P &kp O &kp P &kp I>,
+    <&macro_tap &kp M>,
     <&macro_release &kp LSHIFT>,
-    <&macro_tap &kp SPACE &kp D &kp A &kp T &kp A &kp SPACE &kp I &kp S &kp SPACE &kp E &kp X &kp P &kp E &kp C &kp T &kp E &kp D &kp SPACE &kp B &kp E &kp H &kp A &kp V &kp I &kp O &kp U &kp R &kp SPACE &kp F &kp O &kp R &kp SPACE>,
-    <&macro_press &kp LSHIFT>,
-    <&macro_tap &kp F &kp I &kp C &kp A>, 
-    <&macro_release &kp LSHIFT>,
-    <&macro_tap &kp SPACE &kp D &kp E &kp P &kp A &kp R &kp T &kp M &kp E &kp N &kp T &kp DOT &kp SPACE>,
+    <&macro_tap &kp A &kp R &kp K &kp E &kp T &kp I &kp N &kp G &kp SPACE &kp D &kp E &kp P &kp T>,
     <&no_action_required>;
     )
 
