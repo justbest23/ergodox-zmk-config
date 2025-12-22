@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: xudongzheng
-      url-base: https://github.com/xudongzheng
+    - name: slicemk
+      url-base: https://github.com/slicemk
   projects:
     - name: zmk
-      remote: xudongzheng
-      revision: v20240802-rgb
+      remote: slicemk
+      revision: main
       import: app/west.yml
   self:
     path: config
