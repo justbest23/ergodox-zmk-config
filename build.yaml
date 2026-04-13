@@ -1,2 +1,4 @@
-- board: mdbt50q_rx
-  shield: slicemk_ergodox_dongle
+---
+include:
+  - board: mdbt50q_rx
+    shield: slicemk_ergodox_dongle
