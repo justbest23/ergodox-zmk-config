@@ -1,4 +1,10 @@
 ---
 include:
-  - board: mdbt50q_rx
+  - board: mdbt50q_rx//zmk
     shield: slicemk_ergodox_dongle
+
+  - board: nice_nano//zmk
+    shield: slicemk_ergodox_left
+
+  - board: nice_nano//zmk
+    shield: slicemk_ergodox_right
