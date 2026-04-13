@@ -1,4 +1,2 @@
-# build.yaml
-include:
-  - board: raytac_mdbt50q_rx
-    shield: slicemk_ergodox_dongle
+- board: mdbt50q_rx
+  shield: slicemk_ergodox_dongle
