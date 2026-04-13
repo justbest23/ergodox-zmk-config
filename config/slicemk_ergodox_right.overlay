@@ -1,21 +1,33 @@
+#include <dt-bindings/led/led.h>
+
 / {
     chosen {
         zmk,underglow = &underglow;
     };
 };
 
-&spi3 {
+&spi1 {
+    compatible = "nordic,nrf-spi";
     status = "okay";
-};
 
-underglow: ws2812@0 {
-    compatible = "worldsemi,ws2812-spi";
+    mosi-pin = <6>;   // 🔥 THIS IS THE IMPORTANT PIN
+    sck-pin = <5>;
+    miso-pin = <7>;
 
-    reg = <0>;
-    spi-max-frequency = <4000000>;
+    underglow: ws2812@0 {
+        compatible = "worldsemi,ws2812-spi";
+        label = "WS2812";
 
-    chain-length = <12>;   // 🔥 CHANGE THIS
-    color-mapping = <2 1 0>; // GRB
+        reg = <0>;
+        spi-max-frequency = <4000000>;
 
-    label = "WS2812";
+        chain-length = <4>;   // ✅ YOUR BOARD (4 LEDs)
+
+        spi-one-frame = <0x70>;
+        spi-zero-frame = <0x40>;
+
+        color-mapping = <LED_COLOR_ID_GREEN
+                         LED_COLOR_ID_RED
+                         LED_COLOR_ID_BLUE>;
+    };
 };
