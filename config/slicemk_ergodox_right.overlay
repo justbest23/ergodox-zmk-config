@@ -1,0 +1,21 @@
+/ {
+    chosen {
+        zmk,underglow = &underglow;
+    };
+};
+
+&spi3 {
+    status = "okay";
+};
+
+underglow: ws2812@0 {
+    compatible = "worldsemi,ws2812-spi";
+
+    reg = <0>;
+    spi-max-frequency = <4000000>;
+
+    chain-length = <12>;   // 🔥 CHANGE THIS
+    color-mapping = <2 1 0>; // GRB
+
+    label = "WS2812";
+};
