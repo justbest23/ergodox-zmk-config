@@ -1,8 +1,5 @@
-# If you have the standard ErgoDox Wireless setup with the latest Raytac "green"
-# dongle, you do not need to edit this file. If you are using a different dongle
-# or the older Raytac "blue" dongle, you will need to modify "board" below. If
-# you are not using a dongle, you will need to modify both "board" and "shield"
-# below. Please see "readme.md" in the parent directory for instructions.
-include:
-  - board: raytac_mdbt50q_rx
-    shield: slicemk_ergodox_dongle
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: slicemk/zmk/.github/workflows/build-user-config.yml@main
