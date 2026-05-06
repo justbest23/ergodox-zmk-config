@@ -1,11 +1,44 @@
+# manifest:
+#   remotes:
+#     - name: slicemk
+#       url-base: https://github.com/slicemk
+#   projects:
+#     - name: zmk
+#       remote: slicemk
+#       revision: f584bbb
+#       import: app/west.yml
+#   self:
+#     path: config
+
+
 manifest:
   remotes:
     - name: slicemk
-      url-base: https://github.com/slicemk
+      url-base: https://github.com/xudongzheng/
+    - name: urob
+      url-base: https://github.com/urob
+    - name: ssbb
+      url-base: https://github.com/ssbb
+    - name: divisionst
+      url-base: https://github.com/DivisionSt/
   projects:
     - name: zmk
       remote: slicemk
-      revision: f584bbb
+      revision: v20250729-rgb
       import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: main
+    - name: zmk-leader-key
+      remote: divisionst
+      path: modules/zmk/leader-key
+      revision: max_bounds_check
+    - name: zmk-tri-state
+      remote: urob
+      path: modules/zmk/tri-state
+      revision: main
+    - name: zmk-listeners
+      remote: ssbb
+      revision: v1
   self:
     path: config
